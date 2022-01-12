@@ -1,0 +1,15 @@
+ @media (min-width: 992px) {
+     .subscribe__title {
+         max-width: 266px;
+     }
+     .contact__body {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+     }
+     .footer__container {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+     }
+ }

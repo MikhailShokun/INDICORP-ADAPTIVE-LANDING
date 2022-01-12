@@ -1,0 +1,130 @@
+@media (max-width: 575px) {
+    .header__container {
+        min-height: 70px;
+    }
+    .header__nav {
+        margin-left: 40px;
+    }
+    .main-block__body {
+        padding-top: 120px;
+        max-width: 335px;
+        margin: 0 auto;
+    }
+    .main-block__title {
+        text-align: center;
+        font-size: 40px;
+        margin: 0 auto;
+    }
+    .main-block__text {
+        text-align: center;
+    }
+    .main-block__buttons {
+        justify-content: center;
+    }
+    .main-block__button {
+        max-width: 100%;
+    }
+    .main-block__image {
+        opacity: 0.5;
+    }
+    .services__column {
+        max-width: 90%;
+        margin: 15px auto;
+        flex: 1 1 100%;
+    }
+    .item-service__text {
+        font-size: 16px;
+    }
+    .header-block {
+        max-width: 90%;
+    }
+    .advantages {
+        padding: 40px 0;
+    }
+    .advantages__body {
+        justify-content: center;
+    }
+    .advantages__column {
+        max-width: 90%;
+        flex: 0 1 100%;
+        margin: 15px auto;
+    }
+    .practice {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .practice__body {
+        justify-content: center;
+    }
+    .practice__column {
+        max-width: 90%;
+        flex: 0 1 100%;
+        margin: 15px auto;
+    }
+    .whoweare {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 50px 0px;
+    }
+    .whoweare__header {
+        padding-bottom: 30px;
+    }
+    .whoweare__body {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .whoweare__video {
+        padding-bottom: 56.25%;
+        &:not(:last-child) {
+            margin-bottom: 50px;
+        }
+    }
+    .whoweare__content {
+        flex: 1 1 auto;
+        padding: 0;
+    }
+    .subscribe__body {
+        margin: 0 -15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .subscribe__title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .subscribe__form {
+        flex: 0 1 auto;
+    }
+    .subscribe__button {
+        padding: 0 10px;
+    }
+    .support {
+        padding-bottom: 40px;
+    }
+    .support__header {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .support__card-item {
+        margin: 15px auto;
+        flex: 0 1 100%;
+    }
+    .contact {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .contact__content {
+        padding-right: 10px;
+    }
+    .footer__row {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .footer__column {
+        flex: 0 1 100%;
+        align-items: center;
+    }
+    .footer__copy {
+        padding-bottom: 50px;
+    }
+}

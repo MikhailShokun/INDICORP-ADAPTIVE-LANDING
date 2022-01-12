@@ -1,36 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.min.css" />
-    <title>Indicorp_V2</title>
-</head>
+@@include('html/head.html',{ "title":"Indicorp_V2" })
 
 <body>
     <div class="wrapper">
-        <header class="header">
-    <div class="header__container _container">
-        <a href="#" class="header__logo">Indicorp</a>
-        <nav class="header__nav">
-            <ul class="nav__list">
-                <li class="nav__item">
-                    <a href="#" class="nav__link">Home</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#" class="nav__link">Product</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#" class="nav__link">Pricing</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#" class="nav__link">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-</header>
+        @@include('html/header.html',{})
         <main class="page">
 
             <section class="page__main-block main-block">
@@ -44,9 +18,8 @@
                         </div>
                     </div>
                 </div>
-                <!-- выводим задний фон в html, в будущем с ним легче работать -->
                 <div class="main-block__image _ibg">
-                    <img src="img/mainBackground.jpg" alt="background">
+                    <img src="@img/mainBackground.jpg" alt="background">
                 </div>
             </section>
 
@@ -132,7 +105,7 @@
                                     </a>
                                     <p class="item-practice__text">Newton thought that light was made up of particles, but then it was discovered</p>
                                 </div>
-                                <a href="#" class="item-practice__image _ibg"><img src="img/practice1.jpg  " alt="A single source of truth"></a>
+                                <a href="#" class="item-practice__image _ibg"><img src="@img/practice1.jpg  " alt="A single source of truth"></a>
                             </article>
                         </div>
                         <div class="practice__column">
@@ -143,7 +116,7 @@
                                     </a>
                                     <p class="item-practice__text">“Quantum mechanics” is the description of the behaviour of matter</p>
                                 </div>
-                                <a href="#" class="item-practice__image _ibg"><img src="img/practice2.jpg  " alt="A single source of truth"></a>
+                                <a href="#" class="item-practice__image _ibg"><img src="@img/practice2.jpg  " alt="A single source of truth"></a>
                             </article>
                         </div>
                         <div class="practice__column">
@@ -154,7 +127,7 @@
                                     </a>
                                     <p class="item-practice__text">They describe a universe consisting of bodies moving</p>
                                 </div>
-                                <a href="#" class="item-practice__image _ibg"><img src="img/practice3.jpg  " alt="A single source of truth"></a>
+                                <a href="#" class="item-practice__image _ibg"><img src="@img/practice3.jpg  " alt="A single source of truth"></a>
                             </article>
                         </div>
                         <div class="practice__column">
@@ -165,7 +138,7 @@
                                     </a>
                                     <p class="item-practice__text">They finally obtained a consistent description of the behaviour</p>
                                 </div>
-                                <a href="#" class="item-practice__image _ibg"><img src="img/practice4.jpg  " alt="A single source of truth"></a>
+                                <a href="#" class="item-practice__image _ibg"><img src="@img/practice4.jpg  " alt="A single source of truth"></a>
                             </article>
                         </div>
                     </div>
@@ -294,122 +267,7 @@
             </section>
 
         </main>
-        <footer class="footer">
-    <div class="footer__top">
-        <div class="footer__main _container">
-            <div class="footer__row">
-                <div class="footer__column">
-                    <div class="footer__label">Company Info</div>
-                    <nav class="footer__menu menu">
-                        <ul class="menu-footer__list">
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">About Us</a>
-                            </li>
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">Carrier</a>
-                            </li>
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">We are hiring</a>
-                            </li>
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">Blog</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="footer__column">
-                    <div class="footer__label">Legal</div>
-                    <nav class="footer__menu menu">
-                        <ul class="menu-footer__list">
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">About Us</a>
-                            </li>
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">Carrier</a>
-                            </li>
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">We are hiring</a>
-                            </li>
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">Blog</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="footer__column">
-                    <div class="footer__label">Features</div>
-                    <nav class="footer__menu menu">
-                        <ul class="menu-footer__list">
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">Business Marketing</a>
-                            </li>
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">User Analytic</a>
-                            </li>
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">Live Chat</a>
-                            </li>
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">Unlimited Support </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="footer__column">
-                    <div class="footer__label">Resources</div>
-                    <nav class="footer__menu menu">
-                        <ul class="menu-footer__list">
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">IOS & Android</a>
-                            </li>
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">Watch a Demo</a>
-                            </li>
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">Customers</a>
-                            </li>
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">API </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="footer__column">
-                    <div class="footer__label">Get In Touch</div>
-                    <ul class="footer__contacts contacts-footer">
-                        <li class="contacts-footer__item contacts-footer__item_phone _icon-phone">
-                            <a href="tel:4805550103">(480) 555-0103</a>
-                        </li>
-
-                        <li class="contacts-footer__item contacts-footer__item_map _icon-location">
-                            <a href="https://goo.gl/maps/gbpu7qvpq3qSzp9Y8">4517 Washington Ave. Manchester, Kentucky 39495</a
-              >
-            </li>
-
-            <li
-              class="contacts-footer__item contacts-footer__item_email _icon-airplane"
-            >
-              <a href="mailto:debra.holt@example.com">debraholt@example.com</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer__bottom">
-        <div class="footer__container _container">
-            <p class="footer__copy">Made With Love By Figmaland All Right Reserved</p>
-            <div class="footer__social social">
-                <div class="social__brands">
-                    <a href="#"><span class="icon-facebook _icon-facebook"></span></a>
-                    <a href="#"><span class="icon-instagram _icon-instagram"></span></a>
-                    <a href="#"><span class="icon-twitter _icon-twitter"></span></a>
-                    <a href="#"><span class="icon-youtube _icon-youtube"></span></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+        @@include('html/footer.html',{})
     </div>
     <script src="js/app.min.js"></script>
 

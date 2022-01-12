@@ -300,7 +300,6 @@ body {
 .services__column {
   padding: 0 15px;
   flex: 0 1 33.333%;
-  margin-bottom: 30px;
 }
 
 .services__item {
@@ -368,7 +367,6 @@ body {
 .advantages__column {
   padding: 0 15px;
   flex: 0 1 25%;
-  margin-bottom: 30px;
 }
 
 .advantages__item {
@@ -433,7 +431,6 @@ body {
 .practice__column {
   padding: 0 20px;
   flex: 0 1 25%;
-  margin-bottom: 30px;
 }
 
 .item-practice {
@@ -1076,6 +1073,7 @@ body {
 
   .advantages__column {
     flex: 0 1 50%;
+    margin: 15px auto;
   }
 
   .practice {
@@ -1085,6 +1083,7 @@ body {
 
   .practice__column {
     flex: 0 1 50%;
+    margin: 15px auto;
   }
 
   .whoweare {
@@ -1197,6 +1196,7 @@ body {
 
   .advantages__column {
     flex: 0 1 50%;
+    margin: 15px auto;
   }
 
   .practice {
@@ -1205,6 +1205,7 @@ body {
 
   .practice__column {
     flex: 0 1 50%;
+    margin: 15px auto;
   }
 
   .whoweare {
@@ -1342,6 +1343,7 @@ body {
   .advantages__column {
     max-width: 90%;
     flex: 0 1 100%;
+    margin: 15px auto;
   }
 
   .practice {
@@ -1356,6 +1358,7 @@ body {
   .practice__column {
     max-width: 90%;
     flex: 0 1 100%;
+    margin: 15px auto;
   }
 
   .whoweare {
