@@ -1,1 +1,2 @@
-# indicorp_mainSite
+GitHub Pages:
+https://mikhailshokun.github.io/indicorp_mainSite/
